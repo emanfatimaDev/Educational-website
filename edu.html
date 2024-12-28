@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Educational Website</title>
+    <link rel="stylesheet" type="text/css" href="edu.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LearnHub</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to LearnHub</h1>
+        <p>Your gateway to interactive and impactful learning experiences.</p>
+        <a href="#courses" class="cta">Explore Courses</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>LearnHub is dedicated to providing high-quality, interactive courses for students and professionals. Our mission is to make learning engaging, accessible, and effective for everyone.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Popular Courses</h2>
+        <div class="courses-grid">
+            <div class="course-card">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript, and modern web frameworks.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-card">
+                <h3>DevOps Essentials</h3>
+                <p>Master cloud computing, CI/CD pipelines, and automation tools.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course-card">
+                <h3>Data Science Basics</h3>
+                <p>Understand data analysis, Python, and machine learning foundations.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>What Students Say</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <p>\"LearnHub transformed my career with practical, hands-on courses.\"</p>
+                <h4>- Sarah</h4>
+            </div>
+            <div class="review-card">
+                <p>\"The instructors are amazing, and the resources are top-notch!\"</p>
+                <h4>- Ahmed</h4>
+            </div>
+            <div class="review-card">
+                <p>\"I highly recommend LearnHub to anyone looking to upskill.\"</p>
+                <h4>- Maria</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to learn more? Reach out to us!</p>
+        <form action="https://formspree.io/f/mexample" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LearnHub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
